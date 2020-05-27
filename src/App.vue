@@ -8,8 +8,8 @@
           </header>
         </div>
         <div class="col-12">
-          <table class="table thead-light table-hover">
-            <thead>
+          <table class="table table-hover">
+            <thead class="thead-light">
               <tr>
                 <th scope="col">#</th>
                 <th scope="col">{{ headers[0] }}</th>
@@ -90,7 +90,7 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
