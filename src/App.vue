@@ -8,7 +8,7 @@
           </header>
         </div>
         <div class="col-12">
-          <table class="table table-striped">
+          <table class="table thead-light table-hover">
             <thead>
               <tr>
                 <th scope="col">#</th>
@@ -64,23 +64,23 @@ export default {
         {
           nombre: "José",
           apellido: "Pérez",
-          run: "12.345.678-9",
-          nacimiento: "12-03-1977",
-          edad: 68,
+          run: "123456-2",
+          nacimiento: "12-04-67",
+          edad: 52,
         },
         {
           nombre: "María",
-          apellido: "Diez",
-          run: "21.312.234-2",
-          nacimiento: "12-02-1987",
-          edad: 32,
+          apellido: "Rodriguez",
+          run: "654321-1",
+          nacimiento: "30-11-90",
+          edad: 29,
         },
         {
-          nombre: "Bob",
+          nombre: "Manuel",
           apellido: "Patiño",
-          run: "22.231.654-5",
-          nacimiento: "12-03-1965",
-          edad: 53,
+          run: "14223456-6",
+          nacimiento: "02-12-59",
+          edad: 60,
         },
       ],
     };
